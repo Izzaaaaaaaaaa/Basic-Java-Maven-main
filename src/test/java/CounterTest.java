@@ -1,6 +1,8 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+
+
 public class CounterTest {
 
 	@Test
@@ -18,13 +20,25 @@ public class CounterTest {
 
 	@Test
 	public void testIncrement() {
-		Counter testCounter = new Counter();
+    Counter testCounter = new Counter();
+    
+    for(int i = 1; i <10; i++) {
+        testCounter.increment();
+
+        // ERROR LOGIKA
+        assertEquals(testCounter.getCount(), i + 1);
+    }
+}
+
+	// @Test
+	// public void testIncrement() {
+	// 	Counter testCounter = new Counter();
 		
-		for(int i = 1; i <10; i++) {
-			testCounter.increment();
-			assertEquals(testCounter.getCount(), i);
-		}
-	}
+	// 	for(int i = 1; i <10; i++) {
+	// 		testCounter.increment();
+	// 		assertEquals(testCounter.getCount(), i);
+	// 	}
+	// }
 
 	@Test
 	public void testDecrement() {
