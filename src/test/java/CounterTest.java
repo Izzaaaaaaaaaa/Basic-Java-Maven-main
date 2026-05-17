@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CounterTest {
 
 	@Test
-	public void testReset() {
+	public void testReset() 
 		Counter testCounter = new Counter();
 		
 		for(int i = 0; i <10; i++) {
