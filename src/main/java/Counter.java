@@ -3,7 +3,7 @@ public class Counter {
 
 	private int count;
 	
-	public Counter(wwwwwwwwwwwwwwwwwwwww) {
+	public Counter() {
 		this.reset();
 	}
 		
@@ -11,11 +11,11 @@ public class Counter {
 		count = 0;
 	}
 	
-	public void increment(wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww) {
+	public void increment() {
 		count++;
 	}
 	
-	public void decrement(wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww) {
+	public void decrement() {
 		count--;
 	}
 	
