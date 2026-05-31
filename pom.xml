@@ -16,7 +16,7 @@
     <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/zaenarifputra/Tugas-10-CI-CD_2311104049</url>
+        <url>https://maven.pkg.github.com/Izzaaaaaaaaaa/Basic-Java-Maven-main</url>
     </repository>
   </distributionManagement>
     
